@@ -10,7 +10,7 @@ app = FastAPI()
 
 # 2. Danh sách các "nguồn" (Origins) được phép truy cập vào API này
 # Trong quá trình phát triển, Next.js mặc định chạy ở port 3000
-origins = ["http://localhost:3000","http://127.0.0.1:3000","https://fastapi-example-hjcz.onrender.com"] # Cho phép tất cả các nguồn truy cập
+origins = ["http://localhost:3000","http://127.0.0.1:3000","https://taskflow-backend-wr6l.onrender.com"] # Cho phép tất cả các nguồn truy cập
 
 app.add_middleware(
     CORSMiddleware,
